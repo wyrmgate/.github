@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/wyrmgate
+    about: Do not open a public issue for a suspected vulnerability. Follow the repository SECURITY.md and use private vulnerability reporting when available.

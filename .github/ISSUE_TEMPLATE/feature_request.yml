@@ -1,0 +1,30 @@
+name: Feature request
+description: Propose a product or engineering improvement
+title: "[Feature]: "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Describe the problem to solve or the capability that is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: Describe the desired behavior or outcome without over-constraining implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include examples, constraints, compatibility considerations, or alternatives if relevant.
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Security considerations
+      options:
+        - label: I considered whether this affects authentication, authorization, tenant isolation, secrets, or data exposure.
